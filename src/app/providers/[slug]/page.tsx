@@ -1,4 +1,7 @@
-import { getProviderBySlug, getTreatments, getProviders } from '@/lib/data'
+// Add this export to force dynamic rendering
+export const dynamic = 'force-dynamic'
+
+import { getProviderBySlug, getTreatments } from '@/lib/data'
 import InquiryForm from '@/components/InquiryForm'
 import { notFound } from 'next/navigation'
 
@@ -84,10 +87,4 @@ export default function ProviderDetail({ params }: PageProps) {
   )
 }
 
-// Generate static paths for all providers
-export async function generateStaticParams() {
-  const providers = getProviders()
-  return providers.map((provider) => ({
-    slug: provider.slug,
-  }))
-} 
+// Remove the generateStaticParams function completely

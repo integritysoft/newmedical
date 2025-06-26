@@ -1,3 +1,6 @@
+// Add this export to force dynamic rendering
+export const dynamic = 'force-dynamic'
+
 import { getProviders, getTreatments } from '@/lib/data'
 import ProviderCard from '@/components/ProviderCard'
 import SearchBar from '@/components/SearchBar'
@@ -48,4 +51,4 @@ export default function Home() {
       </section>
     </>
   )
-} 
+}
