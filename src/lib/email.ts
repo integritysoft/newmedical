@@ -18,7 +18,7 @@ interface Inquiry {
 
 export async function sendInquiryEmail(inquiry: Inquiry) {
   // Skip if no API key (development)
-  if (!process.env.RESEND_API_KEY || process.env.RESEND_API_KEY === 'your_resend_api_key_here') {
+  if (!process.env.RESEND_API_KEY || process.env.RESEND_API_KEY === 're_dac8gh98_636TXabfhVTztuP7m2C2hR1J') {
     console.log('Skipping email send - no API key configured')
     console.log('Inquiry details:', inquiry)
     return
