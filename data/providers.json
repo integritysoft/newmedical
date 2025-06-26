@@ -1,0 +1,71 @@
+[
+  {
+    "id": "1",
+    "slug": "acibadem-healthcare",
+    "name": "Acıbadem Healthcare Group",
+    "description": "Turkey's leading healthcare provider with JCI accredited hospitals. Specializing in cardiology, oncology, orthopedics, and IVF treatments with over 30 years of experience serving international patients.",
+    "city": "Istanbul",
+    "address": "Altunizade, Fahrettin Kerim Gökay Cd. No:49, 34662 Üsküdar/İstanbul",
+    "phone": "+90 216 544 4444",
+    "email": "international@acibadem.com",
+    "website": "https://www.acibadem.com.tr/en",
+    "image": "/images/acibadem.jpg",
+    "languages": ["English", "Arabic", "Russian", "German", "French"],
+    "treatments": ["cardiology", "oncology", "orthopedics", "ivf", "dental", "ophthalmology"],
+    "yearsExperience": 32,
+    "patientsPerYear": 50000,
+    "features": [
+      "JCI Accredited",
+      "Airport Transfer Service",
+      "24/7 Interpreter Service",
+      "Accommodation Assistance",
+      "International Patient Department"
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "memorial-healthcare",
+    "name": "Memorial Healthcare Group",
+    "description": "Award-winning healthcare network providing world-class medical services. Known for advanced cancer treatment, organ transplantation, and cardiovascular surgery.",
+    "city": "Istanbul",
+    "address": "Piyalepaşa Blv. No:4, 34385 Şişli/İstanbul",
+    "phone": "+90 212 314 6666",
+    "email": "info@memorial.com.tr",
+    "website": "https://www.memorial.com.tr",
+    "image": "/images/memorial.jpg",
+    "languages": ["English", "Arabic", "Russian", "French", "Spanish"],
+    "treatments": ["dental", "plastic-surgery", "ophthalmology", "cardiology", "oncology", "orthopedics"],
+    "yearsExperience": 28,
+    "patientsPerYear": 35000,
+    "features": [
+      "ISO 9001:2015 Certified",
+      "24/7 International Support",
+      "VIP Patient Services",
+      "Insurance Coordination",
+      "Online Consultation Available"
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "american-hospital",
+    "name": "American Hospital Istanbul",
+    "description": "Premium healthcare facility with American standards of care. Specialized in complex surgeries, cancer treatment, and emergency medicine with cutting-edge technology.",
+    "city": "Istanbul",
+    "address": "Güzelbahçe Sokak No:20, 34365 Nişantaşı/İstanbul",
+    "phone": "+90 212 444 3777",
+    "email": "international@americanhospital.com.tr",
+    "website": "https://www.americanhospital.com.tr",
+    "image": "/images/american-hospital.jpg",
+    "languages": ["English", "Arabic", "French", "German"],
+    "treatments": ["cardiology", "oncology", "plastic-surgery", "orthopedics", "dental"],
+    "yearsExperience": 25,
+    "patientsPerYear": 20000,
+    "features": [
+      "JCI Accredited",
+      "US Board Certified Doctors",
+      "Luxury Patient Rooms",
+      "Concierge Services",
+      "Direct Insurance Billing"
+    ]
+  }
+] 

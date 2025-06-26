@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cardiology",
+    "name": "Cardiology",
+    "description": "Heart surgery, angioplasty, bypass surgery, and cardiac care",
+    "icon": "❤️"
+  },
+  {
+    "id": "dental",
+    "name": "Dental Care",
+    "description": "Dental implants, veneers, crowns, and cosmetic dentistry",
+    "icon": "🦷"
+  },
+  {
+    "id": "plastic-surgery",
+    "name": "Plastic Surgery",
+    "description": "Cosmetic and reconstructive procedures, rhinoplasty, liposuction",
+    "icon": "✨"
+  },
+  {
+    "id": "orthopedics",
+    "name": "Orthopedics",
+    "description": "Joint replacement, spine surgery, sports medicine",
+    "icon": "🦴"
+  },
+  {
+    "id": "ophthalmology",
+    "name": "Eye Care",
+    "description": "LASIK, cataract surgery, and eye treatments",
+    "icon": "👁️"
+  },
+  {
+    "id": "oncology",
+    "name": "Cancer Treatment",
+    "description": "Comprehensive cancer care and advanced treatments",
+    "icon": "🏥"
+  },
+  {
+    "id": "ivf",
+    "name": "IVF & Fertility",
+    "description": "In vitro fertilization and fertility treatments",
+    "icon": "👶"
+  }
+] 
