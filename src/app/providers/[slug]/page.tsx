@@ -1,4 +1,4 @@
-import { getProviderBySlug, getTreatments } from '@/lib/data'
+import { getProviderBySlug, getTreatments, getProviders } from '@/lib/data'
 import InquiryForm from '@/components/InquiryForm'
 import { notFound } from 'next/navigation'
 
