@@ -1,7 +1,3 @@
-import { Resend } from 'resend'
-
-const resend = new Resend(process.env.RESEND_API_KEY!)
-
 interface Inquiry {
   id: string
   name: string
@@ -17,14 +13,18 @@ interface Inquiry {
 }
 
 export async function sendInquiryEmail(inquiry: Inquiry) {
-  // Skip if no API key (development)
+  // Skip if no API key configured
   if (!process.env.RESEND_API_KEY || process.env.RESEND_API_KEY === 're_dac8gh98_636TXabfhVTztuP7m2C2hR1J') {
     console.log('Skipping email send - no API key configured')
     console.log('Inquiry details:', inquiry)
-    return
+    return { data: { id: 'mock-id' } }
   }
 
   try {
+    // Lazy load Resend only when needed
+    const { Resend } = await import('resend')
+    const resend = new Resend(process.env.RESEND_API_KEY)
+
     const { data, error } = await resend.emails.send({
       from: 'Medical Tourism Turkey <noreply@updates.medicaltourismturkey.com>',
       to: process.env.ADMIN_EMAIL || 'admin@example.com',
@@ -113,4 +113,4 @@ export async function sendInquiryEmail(inquiry: Inquiry) {
     console.error('Email send error:', error)
     return { error }
   }
-} 
+}
